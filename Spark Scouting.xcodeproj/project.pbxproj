@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D35C4EA21935DAD00C742AB /* ScoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35C4E921935DAD00C742AB /* ScoutView.swift */; };
+		2D35C4EC21935E1000C742AB /* RanksViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35C4EB21935E1000C742AB /* RanksViewCell.swift */; };
+		2D997E6021927111007C314C /* ScoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D997E5F21927111007C314C /* ScoutingViewController.swift */; };
+		2D997E62219271BB007C314C /* ViewRanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D997E61219271BB007C314C /* ViewRanksViewController.swift */; };
+		2DA36F9221920BE4000F448C /* PreviewPicturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA36F9121920BE4000F448C /* PreviewPicturesView.swift */; };
 		2DC38949218BC7D100270A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC38948218BC7D100270A08 /* AppDelegate.swift */; };
-		2DC3894B218BC7D100270A08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3894A218BC7D100270A08 /* ViewController.swift */; };
-		2DC3894E218BC7D100270A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC3894C218BC7D100270A08 /* Main.storyboard */; };
+		2DC3894B218BC7D100270A08 /* UserSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3894A218BC7D100270A08 /* UserSelectionController.swift */; };
 		2DC38951218BC7D100270A08 /* Spark_Scouting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3894F218BC7D100270A08 /* Spark_Scouting.xcdatamodeld */; };
 		2DC38953218BC7D200270A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC38952218BC7D200270A08 /* Assets.xcassets */; };
 		2DC38956218BC7D200270A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC38954218BC7D200270A08 /* LaunchScreen.storyboard */; };
 		2DC38961218BC7D200270A08 /* Spark_ScoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC38960218BC7D200270A08 /* Spark_ScoutingTests.swift */; };
 		2DC3896C218BC7D200270A08 /* Spark_ScoutingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3896B218BC7D200270A08 /* Spark_ScoutingUITests.swift */; };
+		2DC3897B218BCB8700270A08 /* UserSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3897A218BCB8700270A08 /* UserSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D35C4E921935DAD00C742AB /* ScoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoutView.swift; sourceTree = "<group>"; };
+		2D35C4EB21935E1000C742AB /* RanksViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanksViewCell.swift; sourceTree = "<group>"; };
+		2D997E5F21927111007C314C /* ScoutingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoutingViewController.swift; sourceTree = "<group>"; };
+		2D997E61219271BB007C314C /* ViewRanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRanksViewController.swift; sourceTree = "<group>"; };
+		2DA36F9121920BE4000F448C /* PreviewPicturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPicturesView.swift; sourceTree = "<group>"; };
 		2DC38945218BC7D100270A08 /* Spark Scouting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spark Scouting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC38948218BC7D100270A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DC3894A218BC7D100270A08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DC3894D218BC7D100270A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DC3894A218BC7D100270A08 /* UserSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionController.swift; sourceTree = "<group>"; };
 		2DC38950218BC7D100270A08 /* Spark_Scouting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spark_Scouting.xcdatamodel; sourceTree = "<group>"; };
 		2DC38952218BC7D200270A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC38955218BC7D200270A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		2DC38967218BC7D200270A08 /* Spark ScoutingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spark ScoutingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC3896B218BC7D200270A08 /* Spark_ScoutingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spark_ScoutingUITests.swift; sourceTree = "<group>"; };
 		2DC3896D218BC7D200270A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC3897A218BCB8700270A08 /* UserSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D997E5D219270E1007C314C /* ScoutingPage */ = {
+			isa = PBXGroup;
+			children = (
+				2D997E5F21927111007C314C /* ScoutingViewController.swift */,
+				2D35C4E921935DAD00C742AB /* ScoutView.swift */,
+			);
+			path = ScoutingPage;
+			sourceTree = "<group>";
+		};
+		2D997E5E219270F6007C314C /* ViewRanksPage */ = {
+			isa = PBXGroup;
+			children = (
+				2D997E61219271BB007C314C /* ViewRanksViewController.swift */,
+				2D35C4EB21935E1000C742AB /* RanksViewCell.swift */,
+			);
+			path = ViewRanksPage;
+			sourceTree = "<group>";
+		};
 		2DC3893C218BC7D100270A08 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +127,10 @@
 		2DC38947218BC7D100270A08 /* Spark Scouting */ = {
 			isa = PBXGroup;
 			children = (
+				2D997E5E219270F6007C314C /* ViewRanksPage */,
+				2D997E5D219270E1007C314C /* ScoutingPage */,
+				2DC38979218BCB5300270A08 /* UserSelection */,
 				2DC38948218BC7D100270A08 /* AppDelegate.swift */,
-				2DC3894A218BC7D100270A08 /* ViewController.swift */,
-				2DC3894C218BC7D100270A08 /* Main.storyboard */,
 				2DC38952218BC7D200270A08 /* Assets.xcassets */,
 				2DC38954218BC7D200270A08 /* LaunchScreen.storyboard */,
 				2DC38957218BC7D200270A08 /* Info.plist */,
@@ -126,6 +155,16 @@
 				2DC3896D218BC7D200270A08 /* Info.plist */,
 			);
 			path = "Spark ScoutingUITests";
+			sourceTree = "<group>";
+		};
+		2DC38979218BCB5300270A08 /* UserSelection */ = {
+			isa = PBXGroup;
+			children = (
+				2DC3894A218BC7D100270A08 /* UserSelectionController.swift */,
+				2DC3897A218BCB8700270A08 /* UserSelectionView.swift */,
+				2DA36F9121920BE4000F448C /* PreviewPicturesView.swift */,
+			);
+			path = UserSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +273,6 @@
 			files = (
 				2DC38956218BC7D200270A08 /* LaunchScreen.storyboard in Resources */,
 				2DC38953218BC7D200270A08 /* Assets.xcassets in Resources */,
-				2DC3894E218BC7D100270A08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC3894B218BC7D100270A08 /* ViewController.swift in Sources */,
+				2DC3894B218BC7D100270A08 /* UserSelectionController.swift in Sources */,
+				2D35C4EC21935E1000C742AB /* RanksViewCell.swift in Sources */,
 				2DC38949218BC7D100270A08 /* AppDelegate.swift in Sources */,
+				2DC3897B218BCB8700270A08 /* UserSelectionView.swift in Sources */,
+				2D35C4EA21935DAD00C742AB /* ScoutView.swift in Sources */,
+				2DA36F9221920BE4000F448C /* PreviewPicturesView.swift in Sources */,
+				2D997E6021927111007C314C /* ScoutingViewController.swift in Sources */,
 				2DC38951218BC7D100270A08 /* Spark_Scouting.xcdatamodeld in Sources */,
+				2D997E62219271BB007C314C /* ViewRanksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2DC3894C218BC7D100270A08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DC3894D218BC7D100270A08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DC38954218BC7D200270A08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
